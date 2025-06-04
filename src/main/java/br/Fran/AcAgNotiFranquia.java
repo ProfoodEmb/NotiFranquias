@@ -57,6 +57,8 @@ public class AcAgNotiFranquia implements ScheduledAction {
         dadosFranquias.add(new DadosFranquia("SODIE DOCES E SALGADOS", 2604, new BigDecimal("0.02"), new BigDecimal("0.00"), "compras@sodiedoces.com.br,sistemas@profood.com.br,david@profood.com.br,cobranca@tuicial.com.br,cobranca2@tuicial.com.br", ""));
         dadosFranquias.add(new DadosFranquia("THE WAFFLE KING", 1085, new BigDecimal("0.04"), new BigDecimal("0.01"), "contasapagar@thewaffleking.com.br,contasareceber@thewaffleking.com.br,financeiro@thewaffleking.com.br,sistemas@profood.com.br,david@profood.com.br,cobranca@tuicial.com.br,cobranca2@tuicial.com.br", ""));
         dadosFranquias.add(new DadosFranquia("TT BURGUER", 1609, new BigDecimal("0.04"), new BigDecimal("0.01"), "mayli@ttburger.com.br,bruno.araujo@ttburger.com.br,sistemas@profood.com.br,david@profood.com.br,cobranca@tuicial.com.br,cobranca2@tuicial.com.br", ""));
+        dadosFranquias.add(new DadosFranquia("GREENJOY", 2262, new BigDecimal("0.04"), new BigDecimal("0.01"), "fernandolemos@greenjoy.com.br,jessica.costa@smzto.com.br,david@profood.com.br,cobranca@tuicial.com.br,cobranca2@tuicial.com.br", ""));
+        dadosFranquias.add(new DadosFranquia("THE BEST AÇAÍ", 3930, new BigDecimal("0.065"), new BigDecimal("0.005"), "reneteixeira@ogrupothebest.com,david@profood.com.br,cobranca@tuicial.com.br,cobranca2@tuicial.com.br", ""));
 
         try {
             EntityFacade entityFacade = EntityFacadeFactory.getDWFFacade();
